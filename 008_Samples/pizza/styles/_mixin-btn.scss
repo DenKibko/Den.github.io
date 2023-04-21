@@ -1,0 +1,11 @@
+@mixin btn(){
+    min-width: 130px;
+    background-color: orange;
+    color: #fff;
+    border: 2px solid orange;
+    padding: 15px 25px;
+    &:hover{
+        background-color: transparent;
+        color: orange;
+    }
+}

@@ -1,0 +1,22 @@
+body{
+    margin: 0;
+    font-family:'Inter';
+    background-color: #F9F9F9;
+}
+
+.container{
+    max-width: 1290px;
+    margin: 0 auto;
+    border: 1px solid #000;
+    
+}
+
+@import 'mixin-btn';
+.btn{
+    @include btn();
+}
+
+@import 'header';
+@import 'card-menu';
+@import 'styles-card';
+@import 'basket';

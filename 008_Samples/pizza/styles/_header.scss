@@ -1,0 +1,75 @@
+
+header{
+    background-color: #fff;
+}
+select{
+
+    border: none;
+    background-image: url('../images/icons/Location.svg');
+    background-repeat: no-repeat;
+    background-size: 13px 20px;
+    padding-left: 11.5px;
+   
+}
+
+
+.common-info{
+  
+    display: flex;
+    height: 40px;
+    align-items: center;
+    a{
+    
+    text-decoration: none;
+    color: black;
+    }
+
+} .main-top{
+   
+     display: flex;
+    justify-content: space-between;
+    height: 64px;
+   
+    
+    a{
+        display: flex;
+        text-decoration: none;
+        color: black;
+        align-items: center;
+        width: 115px;
+        justify-content: space-between;
+      
+    
+    .logo{
+        width: 32px;
+        height: 32px;
+        
+       
+    }
+    }
+    button{
+        width: 89px;
+        height: 40px;
+        border-radius: 5px;
+        margin-top: 12px;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+}
+
+.basket-icon{
+    background-image: url('../images/icons/basket-icon.svg');
+    border: none;
+    background-color: orange;
+    background-repeat: no-repeat;
+    background-position: 15px 10px;
+    color: white;
+}
+span{
+    margin-left: 40px;
+    letter-spacing: 1px;
+    font-size: 15px;
+   
+
+}

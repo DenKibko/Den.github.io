@@ -1,0 +1,65 @@
+.form{
+    height: 80px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    p{
+        font-family: 'Inter', sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+        letter-spacing: 1px;
+    }
+
+input{
+    height: 48px;
+    width: 783px;
+    border-color: #F0F0F0;
+}
+button{
+
+    height: 48px;
+    width: 150px;
+    background-color: orange;
+    border: none;
+    border-radius: 5px;
+    margin-left: 20px;
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+}
+
+
+
+.pizza-item{
+    border: 2px solid blue;
+    display: flex;
+    flex-direction: column;
+}
+
+.pizza-cards{
+    // display: flex;
+    // flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.piz{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    h2{
+        font-family: 'Inter', sans-serif;
+        font-size: 40px;
+        font-weight: 600;
+    }
+    .f{
+        width: 126px;
+        height: 40px;
+      
+        background-image: url('../images/foto-pizza/filtr.png');
+        background-repeat: no-repeat;
+    }
+}
